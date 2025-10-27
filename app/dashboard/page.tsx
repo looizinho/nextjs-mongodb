@@ -12,8 +12,8 @@ import { Button } from "@/components/ui/button";
 import { DatabaseStatusBadge } from "@/components/DatabaseStatusBadge";
 import { AuthButton } from "@/components/AuthButton";
 import { PostSection } from "@/components/PostSection";
-import AnimCard from "@/components/card";
-import AnimButton from "@/components/button";
+// import AnimCard from "@/components/card";
+// import AnimButton from "@/components/button";
 
 const DATA = {
   title: "CredencIA",
