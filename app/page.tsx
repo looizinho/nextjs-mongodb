@@ -9,9 +9,11 @@ import { Button } from "@/components/ui/button";
 import { DatabaseStatusBadge } from "@/components/DatabaseStatusBadge";
 import { AuthButton } from "@/components/AuthButton";
 import { PostSection } from "@/components/PostSection";
+import GlassDialogDemo from "@/components/GlassDialogDemo";
+
 
 const DATA = {
-  title: "Next.js with MongoDB",
+  title: "CredencIA",
   description:
     "A full-stack React template with Next.js, Vercel, and MongoDB. Ships with forum and auth, or strip it all out.",
   buttons: {
