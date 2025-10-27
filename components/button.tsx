@@ -3,9 +3,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-interface AnimButtonProps {
-  className?: string;
-}
+// interface AnimButtonProps {
+//   className?: string;
+// }
 
 const AnimButton = (/* { className }: AnimButtonProps*/) => {
   return (
