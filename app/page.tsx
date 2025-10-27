@@ -24,7 +24,7 @@ const DATA = {
   },
   link: {
     text: "View on Github",
-    href: "https://github.com/mongodb-developer/nextjs-news-template-mongodb",
+    href: "https://github.com/looizinho/nextjs-mongodb",
   },
   footerLinks: {
     nextjs: {
