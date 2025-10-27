@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { DatabaseStatusBadge } from "@/components/DatabaseStatusBadge";
 import { AuthButton } from "@/components/AuthButton";
 import { PostSection } from "@/components/PostSection";
-import GlassDialogDemo from "@/components/GlassDialogDemo";
+// import GlassDialogDemo from "@/components/GlassDialogDemo";
 
 
 const DATA = {
