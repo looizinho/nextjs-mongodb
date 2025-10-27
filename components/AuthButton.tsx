@@ -14,6 +14,8 @@ export function AuthButton({ className }: AuthButtonProps) {
 
   const handleLogout = async () => {
     await authClient.signOut();
+    // After signing out, redirect the user to the homepage
+    router.push("/");
   };
 
   const handleLoginClick = () => {

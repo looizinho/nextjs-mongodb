@@ -56,7 +56,7 @@ export function AuthForm({ mode, className, ...props }: AuthFormProps) {
         const { error } = await authClient.signIn.email({
           email: formData.email,
           password: formData.password,
-          callbackURL: "/",
+          callbackURL: "/dashboard",
         })
 
         if (error) {
@@ -65,13 +65,13 @@ export function AuthForm({ mode, className, ...props }: AuthFormProps) {
           return
         }
 
-        router.push("/")
+        router.push("/dashboard")
       } else {
         const { error } = await authClient.signUp.email({
           name: formData.name,
           email: formData.email,
           password: formData.password,
-          callbackURL: "/",
+          callbackURL: "/dashboard",
         })
 
         if (error) {
@@ -80,7 +80,7 @@ export function AuthForm({ mode, className, ...props }: AuthFormProps) {
           return
         }
 
-        router.push("/")
+        router.push("/dashboard")
       }
     } catch {
       setError(isLogin ? "Failed to sign in" : "Failed to create account")
