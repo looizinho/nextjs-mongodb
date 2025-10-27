@@ -7,7 +7,7 @@ interface AnimButtonProps {
   className?: string;
 }
 
-const AnimButton = ({ className }: AnimButtonProps) => {
+const AnimButton = (/* { className }: AnimButtonProps*/) => {
   return (
     <StyledWrapper>
       <button>
